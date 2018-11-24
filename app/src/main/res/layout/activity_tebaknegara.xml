@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tebaknegaraActivity">
+
+
+    <ImageView
+        android:id="@+id/tebakindo"
+        android:layout_width="342dp"
+        android:layout_height="181dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/tebakindo"/>
+
+    <Button
+        android:id="@+id/benderaindo"
+        android:layout_width="196dp"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="246dp"
+        android:background="@drawable/benderaindo"
+        android:elevation="4dp"
+        />
+
+
+    <Button
+        android:id="@+id/benderamona"
+        android:layout_width="111dp"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="133dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="431dp"
+        android:background="@drawable/benderamonako"
+        android:elevation="4dp"/>
+
+</RelativeLayout>

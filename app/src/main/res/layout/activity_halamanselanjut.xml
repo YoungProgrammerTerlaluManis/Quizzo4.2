@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".halamanselanjutActivity">
+
+
+    <ImageView
+        android:background="@drawable/tebakzeus"
+        android:id="@+id/tebakzeus"
+        android:layout_width="338dp"
+        android:layout_height="166dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-7dp"/>
+
+    <Button
+        android:id="@+id/poseidonimg"
+        android:layout_width="122dp"
+        android:layout_height="153dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/poseidon" />
+
+    <Button
+        android:id="@+id/zeus"
+        android:layout_width="121dp"
+        android:layout_height="161dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="239dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="199dp"
+        android:background="@drawable/zues"/>
+
+</RelativeLayout>
